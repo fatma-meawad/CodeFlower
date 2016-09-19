@@ -1,326 +1,466 @@
-{
-    "name": "root",
-    "children": [{
-        "name": "app",
-        "children": [{
-            "name": "dashboard",
-            "children": [{
-                "name": "public",
-                "children": [{
-                    "name": "stylesheets",
-                    "children": [{
-                        "name": "bootstrap.css",
-                        "size": 4945,
-                        "language": "CSS"
-                    }, {
-                        "name": "style.css",
-                        "size": 254,
-                        "language": "CSS"
-                    }, {
-                        "name": "jquery.tagsinput.css",
-                        "size": 7,
-                        "language": "CSS"
-                    }],
-                    "size": 5206
-                }, {
-                    "name": "javascripts",
-                    "children": [{
-                        "name": "dateNavigation.js",
-                        "size": 155,
-                        "language": "Javascript"
-                    }, {
-                        "name": "dateInterval.js",
-                        "size": 83,
-                        "language": "Javascript"
-                    }, {
-                        "name": "bootstrap-affix.js",
-                        "size": 56,
-                        "language": "Javascript"
-                    }, {
-                        "name": "bootstrap-button.js",
-                        "size": 52,
-                        "language": "Javascript"
-                    }, {
-                        "name": "uptimeBar.js",
-                        "size": 47,
-                        "language": "Javascript"
-                    }, {
-                        "name": "checkState.js",
-                        "size": 31,
-                        "language": "Javascript"
-                    }, {
-                        "name": "flashcanvas",
-                        "children": [{
-                            "name": "canvas2png.js",
-                            "size": 27,
-                            "language": "Javascript"
-                        }, {
-                            "name": "flashcanvas.js",
-                            "size": 21,
-                            "language": "Javascript"
-                        }],
-                        "size": 48
-                    }, {
-                        "name": "statNavigation.js",
-                        "size": 26,
-                        "language": "Javascript"
-                    }, {
-                        "name": "flotr2.min.js",
-                        "size": 3,
-                        "language": "Javascript"
-                    }, {
-                        "name": "jquery.min.js",
-                        "size": 3,
-                        "language": "Javascript"
-                    }, {
-                        "name": "jquery.tablesorter.min.js",
-                        "size": 1,
-                        "language": "Javascript"
-                    }, {
-                        "name": "moment.min.js",
-                        "size": 1,
-                        "language": "Javascript"
-                    }, {
-                        "name": "ejs.min.js",
-                        "size": 1,
-                        "language": "Javascript"
-                    }, {
-                        "name": "jquery.tagsinput.min.js",
-                        "size": 1,
-                        "language": "Javascript"
-                    }],
-                    "size": 508
-                }],
-                "size": 5714
-            }, {
-                "name": "app.js",
-                "size": 126,
-                "language": "Javascript"
-            }],
-            "size": 5840
-        }, {
-            "name": "api",
-            "children": [{
-                "name": "routes",
-                "children": [{
-                    "name": "check.js",
-                    "size": 95,
-                    "language": "Javascript"
-                }, {
-                    "name": "ping.js",
-                    "size": 68,
-                    "language": "Javascript"
-                }, {
-                    "name": "tag.js",
-                    "size": 64,
-                    "language": "Javascript"
-                }],
-                "size": 227
-            }, {
-                "name": "app.js",
-                "size": 59,
-                "language": "Javascript"
-            }],
-            "size": 286
-        }],
-        "size": 6126
-    }, {
-        "name": "lib",
-        "children": [{
-            "name": "qosAggregator.js",
-            "size": 476,
-            "language": "Javascript"
-        }, {
-            "name": "intervalBuilder.js",
-            "size": 144,
-            "language": "Javascript"
-        }, {
-            "name": "monitor.js",
-            "size": 109,
-            "language": "Javascript"
-        }, {
-            "name": "pollers",
-            "children": [{
-                "name": "https.js",
-                "size": 81,
-                "language": "Javascript"
-            }, {
-                "name": "http.js",
-                "size": 80,
-                "language": "Javascript"
-            }, {
-                "name": "icmp.js",
-                "size": 53,
-                "language": "Javascript"
-            }, {
-                "name": "udp.js",
-                "size": 47,
-                "language": "Javascript"
-            }, {
-                "name": "base.js",
-                "size": 33,
-                "language": "Javascript"
-            }],
-            "size": 294
-        }, {
-            "name": "proxy.js",
-            "size": 61,
-            "language": "Javascript"
-        }, {
-            "name": "analyzer.js",
-            "size": 40,
-            "language": "Javascript"
-        }, {
-            "name": "timer.js",
-            "size": 15,
-            "language": "Javascript"
-        }],
-        "size": 1139
-    }, {
-        "name": "models",
-        "children": [{
-            "name": "check.js",
-            "size": 313,
-            "language": "Javascript"
-        }, {
-            "name": "tag.js",
-            "size": 176,
-            "language": "Javascript"
-        }, {
-            "name": "migrations",
-            "children": [{
-                "name": "upgrade2to3.js",
-                "size": 137,
-                "language": "Javascript"
-            }],
-            "size": 137
-        }, {
-            "name": "checkEvent.js",
-            "size": 56,
-            "language": "Javascript"
-        }, {
-            "name": "ping.js",
-            "size": 51,
-            "language": "Javascript"
-        }, {
-            "name": "checkYearlyStat.js",
-            "size": 16,
-            "language": "Javascript"
-        }, {
-            "name": "tagYearlyStat.js",
-            "size": 16,
-            "language": "Javascript"
-        }, {
-            "name": "checkMonthlyStat.js",
-            "size": 16,
-            "language": "Javascript"
-        }, {
-            "name": "tagMonthlyStat.js",
-            "size": 16,
-            "language": "Javascript"
-        }, {
-            "name": "tagDailyStat.js",
-            "size": 15,
-            "language": "Javascript"
-        }, {
-            "name": "checkHourlyStat.js",
-            "size": 15,
-            "language": "Javascript"
-        }, {
-            "name": "tagHourlyStat.js",
-            "size": 15,
-            "language": "Javascript"
-        }, {
-            "name": "checkDailyStat.js",
-            "size": 15,
-            "language": "Javascript"
-        }],
-        "size": 857
-    }, {
-        "name": "test",
-        "children": [{
-            "name": "lib",
-            "children": [{
-                "name": "test_intervalBuilder.js",
-                "size": 133,
-                "language": "Javascript"
-            }],
-            "size": 133
-        }],
-        "size": 133
-    }, {
-        "name": "fixtures",
-        "children": [{
-            "name": "computeStats.js",
-            "size": 117,
-            "language": "Javascript"
-        }, {
-            "name": "populate.js",
-            "size": 70,
-            "language": "Javascript"
-        }, {
-            "name": "fixEvents.js",
-            "size": 28,
-            "language": "Javascript"
-        }, {
-            "name": "dummyTargetUdp.js",
-            "size": 19,
-            "language": "Javascript"
-        }, {
-            "name": "dummyTarget.js",
-            "size": 13,
-            "language": "Javascript"
-        }],
-        "size": 247
-    }, {
-        "name": "plugins",
-        "children": [{
-            "name": "console",
-            "children": [{
-                "name": "index.js",
-                "size": 86,
-                "language": "Javascript"
-            }],
-            "size": 86
-        }, {
-            "name": "email",
-            "children": [{
-                "name": "index.js",
-                "size": 36,
-                "language": "Javascript"
-            }],
-            "size": 36
-        }],
-        "size": 122
-    }, {
-        "name": "app.js",
-        "size": 75,
-        "language": "Javascript"
-    }, {
-        "name": "config",
-        "children": [{
-            "name": "default.yaml",
-            "size": 36,
-            "language": "YAML"
-        }, {
-            "name": "test.yaml",
-            "size": 4,
-            "language": "YAML"
-        }],
-        "size": 40
-    }, {
-        "name": "bootstrap.js",
-        "size": 32,
-        "language": "Javascript"
-    }, {
-        "name": "monitor.js",
-        "size": 4,
-        "language": "Javascript"
-    }, {
-        "name": "makefile",
-        "size": 3,
-        "language": "make"
-    }],
-    "nbFiles": 81,
-    "size": 8778
+
+  {
+   "name": "Group1",
+   "children": [
+    {
+     "name": "cluster1",
+     "children": [
+       {"name": "Sensitivity_To_Light", "size":183},
+   {"name": "Neck_Pain", "size":161},
+   {"name": "Sensitivity_To_Noise", "size":160},
+   {"name": "Nausea", "size":115},
+   {"name": "Depressed_Mood", "size":112},
+   {"name": "Nasal_Congestion", "size":89},
+   {"name": "Sensitivity_To_Smell", "size":84},
+   {"name": "Anxiety", "size":69},
+   {"name": "Insomnia", "size":61},
+   {"name": "Giddiness", "size":52},
+   {"name": "Vomiting", "size":42},
+   {"name": "Eye_Pain", "size":4},
+   {"name": "Dizziness", "size":4},
+   {"name": "Sweating", "size":3},
+   {"name": "Jaw_Pain", "size":3},
+   {"name": "Nÿuseas", "size":3},
+   {"name": "Aura", "size":3},
+   {"name": "Humor_Depresivo", "size":2},
+   {"name": "Tiredness", "size":2},
+   {"name": "Ear_Pain", "size":2},
+   {"name": "Tired", "size":2},
+   {"name": "Dolor_Cervical", "size":2},
+   {"name": "Confusion", "size":2},
+   {"name": "Back_Pain", "size":2},
+   {"name": "Blurred_Vision", "size":2},
+   {"name": "No", "size":2},
+   {"name": "Sensibilidad_Al_Ruido", "size":2},
+   {"name": "Sensibilidad_A_La_Luz", "size":2},
+   {"name": "Feeling_Hot_Or_Sweating", "size":1},
+   {"name": "Numbness_In_Fingers", "size":1},
+   {"name": "Sensitividad_A_Los_Olores", "size":1},
+   {"name": "V›mitos", "size":1},
+   {"name": "Mild_Fever", "size":1},
+   {"name": "Shoulder_Pain", "size":1},
+   {"name": "High_Blood_Pressure", "size":1},
+   {"name": "Anxi_t_", "size":1},
+   {"name": "Joints_Sore_Tight", "size":1},
+   {"name": "Muscles_Tight_Sore", "size":1},
+   {"name": "Douleur_Aux_Yeux", "size":1},
+   {"name": "Insomnio", "size":1},
+   {"name": "Synesthesia", "size":1},
+   {"name": "Luces", "size":1},
+   {"name": "Nose_Bleeds", "size":1},
+   {"name": "Drowsiness", "size":1},
+   {"name": "Motion_Sensitive", "size":1},
+   {"name": "Disoriented", "size":1},
+   {"name": "Face_Tingling", "size":1},
+   {"name": "Diarrhea", "size":1},
+   {"name": "Upper_Back_Pain", "size":1},
+   {"name": "Change_In_Taste", "size":1},
+   {"name": "Stay_Indoor", "size":1},
+   {"name": "Rest", "size":1},
+   {"name": "Lightheaded", "size":1},
+   {"name": "Stabbing_Pain", "size":1},
+   {"name": "Pressure", "size":1},
+   {"name": "Throbbing", "size":1},
+   {"name": "Tight_Jaw", "size":1},
+   {"name": "No__Movement", "size":1},
+   {"name": "Aching_Right_Head", "size":1},
+   {"name": "Earache", "size":1},
+   {"name": "Toothache", "size":1},
+   {"name": "Loss_Of_Appetite", "size":1},
+   {"name": "Feel_Weak", "size":1},
+   {"name": "Walking", "size":1},
+   {"name": "Cold_Sweats", "size":1},
+   {"name": "Right_Side_Paralyze", "size":1},
+   {"name": "Insomnie", "size":1},
+   {"name": "Humeur_D_pressive", "size":1},
+   {"name": "Bouff_e_De_Chaleur", "size":1},
+   {"name": "Congesti›n_Nasal", "size":1},
+   {"name": "Irritability", "size":1},
+   {"name": "Right_Side_Weekness", "size":1},
+   {"name": "Mareo", "size":1},
+   {"name": "Pain_With_Each_Step", "size":1},
+   {"name": "Pain_With_Speaking", "size":1},
+   {"name": "Back_Shoulder", "size":1},
+   {"name": "Thirst", "size":1},
+   {"name": "Diahhroea", "size":1},
+   {"name": "Anger_Fear", "size":1},
+   {"name": "Weakness", "size":1},
+   {"name": "Diarrhoea", "size":1},
+   {"name": "Slurred_Speech", "size":1},
+   {"name": "Acid_Reflux", "size":1},
+   {"name": "Frequent_Yawning", "size":1},
+   {"name": "Sleepy", "size":1},
+   {"name": "Temple_Pain", "size":1},
+   {"name": "Sensibilit__Au_Bruit", "size":1},
+   {"name": "Sensibilit____La_Lumi_re", "size":1},
+   {"name": "Naus_e", "size":1},
+   {"name": "Douleur_Au_Cou", "size":1},
+   {"name": "Sensibilit__Aux_Odeurs", "size":1},
+   {"name": "Vertiges", "size":1},
+   {"name": "Congestion_Nasale", "size":1},
+   {"name": "Vomissements", "size":1},
+   {"name": "Irritation", "size":1},
+   {"name": "Concentration", "size":1},
+   {"name": "Severe_Headache", "size":1},
+   {"name": "Slight_Headache", "size":1},
+   {"name": "Pain_Behind_Eyes", "size":1},
+   {"name": "Numbness_In_Legs", "size":1},
+   {"name": "Ansiedad", "size":1},
+   {"name": "Ringing_Ears", "size":1},
+   {"name": "Slight_Head_Throb", "size":1},
+   {"name": "Excessive_Yawning", "size":1},
+   {"name": "Exhausted", "size":1},
+   {"name": "Nasal_Pressure", "size":1},
+   {"name": "Nerve_Pain", "size":1},
+   {"name": "Loss_Of_Side_Vision", "size":1},
+   {"name": "Hot", "size":1},
+   {"name": "Head_Pain", "size":1},
+   {"name": "Dehydrated", "size":1},
+   {"name": "Visual_Disturbance", "size":1},
+   {"name": "Trouble_Speaking", "size":1}
+     ]
+    },
+    {
+     "name": "cluster2",
+     "children": [
+       {"name": "Nasal_Congestion", "size":14},
+   {"name": "Depressed_Mood", "size":14},
+   {"name": "Sensitivity_To_Smell", "size":14},
+   {"name": "Sensitivity_To_Light", "size":14},
+   {"name": "Neck_Pain", "size":13},
+   {"name": "Anxiety", "size":12},
+   {"name": "Insomnia", "size":12},
+   {"name": "Sensitivity_To_Noise", "size":11},
+   {"name": "Nausea", "size":10},
+   {"name": "Giddiness", "size":9},
+   {"name": "Dizziness", "size":4},
+   {"name": "Watery_Eyes", "size":2},
+   {"name": "Hot_Flashes", "size":2},
+   {"name": "Ringing_In_Ears", "size":2},
+   {"name": "Blurred_Vision", "size":2},
+   {"name": "Vomiting", "size":2},
+   {"name": "Slurred_Speech_Mumbling", "size":1},
+   {"name": "Confused_Thoughts", "size":1},
+   {"name": "Delta_Down_Food", "size":1},
+   {"name": "Pain_Behind_Eye", "size":1},
+   {"name": "Leg_Pain_Inflammation", "size":1},
+   {"name": "Tired_And_Sleepy", "size":1},
+   {"name": "Frequent_Urination", "size":1},
+   {"name": "Irritated_Easily", "size":1},
+   {"name": "Antisocial", "size":1},
+   {"name": "Memory_Distortion", "size":1},
+   {"name": "Yawning", "size":1},
+   {"name": "Tooth_Pain", "size":1},
+   {"name": "Muscle_Cramps", "size":1},
+   {"name": "Electrical_Buzzing", "size":1},
+   {"name": "Alice_In_Wonderland", "size":1},
+   {"name": "Extreme_Fatigue", "size":1},
+   {"name": "Feeling_Off", "size":1},
+   {"name": "Blurry_Vision", "size":1},
+   {"name": "Sensitivity_To_Temp", "size":1},
+   {"name": "Trouble_Hearing", "size":1},
+   {"name": "Shoulder_Soreness", "size":1},
+   {"name": "Irritable_Mood", "size":1},
+   {"name": "Seizures", "size":1},
+   {"name": "Allodynia", "size":1},
+   {"name": "Faintness", "size":1},
+   {"name": "Eye_Tearing", "size":1},
+   {"name": "Weakness_Fatigue", "size":1},
+   {"name": "Chills", "size":1},
+   {"name": "Restlessness", "size":1},
+   {"name": "Pressure_Popping", "size":1},
+   {"name": "Tension", "size":1},
+   {"name": "Shakiness", "size":1},
+   {"name": "Tight_Band__Head", "size":1},
+   {"name": "Allydonia", "size":1},
+   {"name": "Face_Flushing", "size":1},
+   {"name": "Sweats", "size":1},
+   {"name": "Diarrhea", "size":1},
+   {"name": "Red_Face", "size":1},
+   {"name": "Cold_Hands_And_Feet", "size":1},
+   {"name": "Vertigo", "size":1},
+   {"name": "Brain_Fog", "size":1},
+   {"name": "Phantom_Smells", "size":1},
+   {"name": "Ear_Pain", "size":1},
+   {"name": "Dizzy", "size":1},
+   {"name": "Headache", "size":1},
+   {"name": "Warm_To_Touch", "size":1},
+   {"name": "Metal_Mouth", "size":1},
+   {"name": "Panting", "size":1},
+   {"name": "Balance_Problems", "size":1},
+   {"name": "Difficulty_W_Speech", "size":1},
+   {"name": "Irritable", "size":1},
+   {"name": "Irritation", "size":1},
+   {"name": "Urti", "size":1},
+   {"name": "Back_Pain", "size":1},
+   {"name": "Increased_Bowels", "size":1},
+   {"name": "Tinnitus", "size":1}
+     ]
+    }
+    ,
+    {
+     "name": "cluster3",
+     "children": [
+       {"name": "Dizzy", "size":2},
+   {"name": "Nasal_Congestion", "size":2},
+   {"name": "Sensitivity_To_Noise", "size":2},
+   {"name": "Giddiness", "size":2},
+   {"name": "Sensitivity_To_Light", "size":2},
+   {"name": "Nausea", "size":2},
+   {"name": "Lack_Of_Vision", "size":1},
+   {"name": "Facial_Swelling", "size":1},
+   {"name": "U_Frequency", "size":1},
+   {"name": "Muscle_Aches", "size":1},
+   {"name": "Tooth_Ache", "size":1},
+   {"name": "Sob", "size":1},
+   {"name": "Soggy_Brain", "size":1},
+   {"name": "Heart_Palpitations", "size":1},
+   {"name": "Left_Leg_Tingling", "size":1},
+   {"name": "Vertigo", "size":1},
+   {"name": "Headache", "size":1},
+   {"name": "Temperature_Flux", "size":1},
+   {"name": "Left_Cheek_Tingling", "size":1},
+   {"name": "Cold_Fingers", "size":1},
+   {"name": "Left_Arm_Tingling", "size":1},
+   {"name": "Tongue_Tingling", "size":1},
+   {"name": "Heart_Burn", "size":1},
+   {"name": "Bloating", "size":1},
+   {"name": "Exhaustion", "size":1},
+   {"name": "Irritable", "size":1},
+   {"name": "Depressed_Mood", "size":1},
+   {"name": "Anxiety", "size":1},
+   {"name": "Sensitivity_To_Smell", "size":1},
+   {"name": "Insomnia", "size":1}
+     ]
+    },
+    {
+     "name": "cluster4",
+     "children": [
+       {"name": "Dizzy", "size":31},
+   {"name": "Nasal_Congestion", "size":30},
+   {"name": "Sensitivity_To_Noise", "size":29},
+   {"name": "Giddiness", "size":28},
+   {"name": "Sensitivity_To_Light", "size":27},
+   {"name": "Nausea", "size":26},
+   {"name": "Lack_Of_Vision", "size":25},
+   {"name": "Facial_Swelling", "size":24},
+   {"name": "U_Frequency", "size":23},
+   {"name": "Muscle_Aches", "size":22},
+   {"name": "Tooth_Ache", "size":21},
+   {"name": "Sob", "size":20},
+   {"name": "Soggy_Brain", "size":19},
+   {"name": "Heart_Palpitations", "size":18},
+   {"name": "Left_Leg_Tingling", "size":17},
+   {"name": "Vertigo", "size":16},
+   {"name": "Headache", "size":15},
+   {"name": "Temperature_Flux", "size":14},
+   {"name": "Left_Cheek_Tingling", "size":13},
+   {"name": "Cold_Fingers", "size":12},
+   {"name": "Left_Arm_Tingling", "size":11},
+   {"name": "Tongue_Tingling", "size":10},
+   {"name": "Heart_Burn", "size":9},
+   {"name": "Bloating", "size":8},
+   {"name": "Exhaustion", "size":7},
+   {"name": "Irritable", "size":6},
+   {"name": "Depressed_Mood", "size":5},
+   {"name": "Anxiety", "size":4},
+   {"name": "Sensitivity_To_Smell", "size":3},
+   {"name": "Insomnia", "size":2}
+     ]
+    },
+    {
+     "name": "cluster5",
+     "children": [
+       {"name": "Fuzzy_Brain", "size":1},
+   {"name": "Tiredness", "size":1},
+   {"name": "Blurred_Vision", "size":1},
+   {"name": "Nasal_Congestion", "size":1},
+   {"name": "Dizziness", "size":1},
+   {"name": "Depressed_Mood", "size":1},
+   {"name": "Anxiety", "size":1},
+   {"name": "Neck_Pain", "size":1},
+   {"name": "Sensitivity_To_Noise", "size":1},
+   {"name": "Giddiness", "size":1}
+     ]
+    },
+    {
+     "name": "cluster6",
+     "children": [
+       {"name": "Work_Up", "size":1},
+ {"name": "Soar_Throat", "size":1},
+ {"name": "Trigger_Point__Pain", "size":1},
+ {"name": "Temple_Pain", "size":1},
+ {"name": "Eye_Pain", "size":1},
+ {"name": "Nasal_Congestion", "size":1},
+ {"name": "Depressed_Mood", "size":1},
+ {"name": "Anxiety", "size":1},
+ {"name": "Sensitivity_To_Smell", "size":1},
+ {"name": "Neck_Pain", "size":1},
+ {"name": "Sensitivity_To_Noise", "size":1}
+     ]
+    },
+    {
+     "name": "cluster7",
+     "children": [
+       {"name": "Eye_Twitching", "size":1},
+ {"name": "Lft_Jaw_Aches", "size":1},
+ {"name": "Rtjawaches", "size":1},
+ {"name": "Rtblackeye", "size":1},
+ {"name": "Eyes_Hurt", "size":1},
+ {"name": "Face_Hurts", "size":1},
+ {"name": "Notunderstandspeech", "size":1},
+ {"name": "Lft_Blk_Eye", "size":1},
+ {"name": "Svr_Muscle_Cramping", "size":1},
+ {"name": "Rt_Shoulder_Pain", "size":1},
+ {"name": "Achy_All_Over", "size":1},
+ {"name": "Right_Earache", "size":1},
+ {"name": "Cnt_Keep_Eyes_Open", "size":1},
+ {"name": "Left_Earache", "size":1},
+ {"name": "Seizurelikeactivity", "size":1},
+ {"name": "Visual_Aura_During", "size":1},
+ {"name": "Hair_Hurts", "size":1},
+ {"name": "Flshg_Red_Lites", "size":1},
+ {"name": "Lft_Shoulder_Pain", "size":1},
+ {"name": "Phantom_Odor", "size":1},
+ {"name": "Diarrhea", "size":1},
+ {"name": "Vertigo", "size":1},
+ {"name": "Brain_Fog", "size":1},
+ {"name": "1Sd_Numb_Tingling", "size":1},
+ {"name": "Motor_Coordination", "size":1},
+ {"name": "Slurred_Speech", "size":1},
+ {"name": "Loss_Of_Words", "size":1},
+ {"name": "One_Sided_Weakness", "size":1},
+ {"name": "Irritable", "size":1},
+ {"name": "Nasal_Congestion", "size":1},
+ {"name": "Dizziness", "size":1},
+ {"name": "Depressed_Mood", "size":1},
+ {"name": "Anxiety", "size":1},
+ {"name": "Sensitivity_To_Smell", "size":1},
+ {"name": "Insomnia", "size":1},
+ {"name": "Neck_Pain", "size":1},
+ {"name": "Sensitivity_To_Noise", "size":1},
+ {"name": "Sensitivity_To_Light", "size":1}
+     ]
+    },
+    {
+     "name": "cluster8",
+     "children": [
+       {"name": "Neck_Pain", "size":29},
+   {"name": "Sensitivity_To_Noise", "size":29},
+   {"name": "Sensitivity_To_Light", "size":28},
+   {"name": "Depressed_Mood", "size":27},
+   {"name": "Nasal_Congestion", "size":22},
+   {"name": "Anxiety", "size":21},
+   {"name": "Insomnia", "size":21},
+   {"name": "Sensitivity_To_Smell", "size":20},
+   {"name": "Nausea", "size":14},
+   {"name": "Giddiness", "size":13},
+   {"name": "Vomiting", "size":11},
+   {"name": "Pressure", "size":2},
+   {"name": "Irritability", "size":2},
+   {"name": "Irritation", "size":2},
+   {"name": "Eye_Pain", "size":2},
+   {"name": "Exhausted", "size":2},
+   {"name": "Dizziness", "size":2},
+   {"name": "Ear_Pressure", "size":1},
+   {"name": "Shingles_Face", "size":1},
+   {"name": "Cold_Feet", "size":1},
+   {"name": "Cold_Hands", "size":1},
+   {"name": "Involuntary_Spasms", "size":1},
+   {"name": "Right_Eye_Pressure", "size":1},
+   {"name": "Constipation", "size":1},
+   {"name": "Loss_Of_Smell", "size":1},
+   {"name": "Cold_Virus", "size":1},
+   {"name": "Sinus_Type_Pressure", "size":1},
+   {"name": "Diminished_Hearing", "size":1},
+   {"name": "Vertigo_Severe", "size":1},
+   {"name": "Difficulty_Speaking", "size":1},
+   {"name": "Breathing_Painful", "size":1},
+   {"name": "Chewing_Painful", "size":1},
+   {"name": "Increased_Pulse", "size":1},
+   {"name": "Vertigo_Moderate", "size":1},
+   {"name": "Joint_Pain", "size":1},
+   {"name": "Vertigo_Mild", "size":1},
+   {"name": "Right_Ocular_Pain", "size":1},
+   {"name": "Body_Aches", "size":1},
+   {"name": "Unclear_Thinking", "size":1},
+   {"name": "Left_Eye_Pressure", "size":1},
+   {"name": "Left_Ocular_Pain", "size":1},
+   {"name": "Fatigue", "size":1},
+   {"name": "Yawning", "size":1},
+   {"name": "Sensitivity_To_Heat", "size":1},
+   {"name": "Allodynia", "size":1},
+   {"name": "Fluxuating_Bodytemp", "size":1},
+   {"name": "Moody", "size":1},
+   {"name": "Difficulty_Thinking", "size":1},
+   {"name": "Fever", "size":1},
+   {"name": "Confusion_Brain_Fog", "size":1},
+   {"name": "Sinus_And_Cheek", "size":1},
+   {"name": "Nauseous", "size":1},
+   {"name": "Restlessness", "size":1},
+   {"name": "Yawning_Sleepiness", "size":1},
+   {"name": "Jaw_Tightness", "size":1},
+   {"name": "Eye_Pressure", "size":1},
+   {"name": "Jittery", "size":1},
+   {"name": "Vertigo", "size":1},
+   {"name": "Ringing_In_Ears", "size":1},
+   {"name": "Throbbing", "size":1},
+   {"name": "Jaw_Tension", "size":1},
+   {"name": "Arm_Numbness", "size":1},
+   {"name": "Arm_Weakness", "size":1},
+   {"name": "Mental_Fuzziness", "size":1},
+   {"name": "Lost_Coordination", "size":1},
+   {"name": "Facial_Droop", "size":1},
+   {"name": "Feet_Tingling", "size":1},
+   {"name": "Hand_Tingling", "size":1},
+   {"name": "Slurred_Speech", "size":1},
+   {"name": "Irritable", "size":1},
+   {"name": "Blurred_Vision", "size":1},
+   {"name": "Tender_Scalp", "size":1},
+   {"name": "Lack_Of_Motivation", "size":1},
+   {"name": "Excessive_Yawning", "size":1}
+     ]
+    },
+    {
+     "name": "cluster9",
+     "children": [
+       {"name": "Swollen_Left_Eye", "size":1},
+   {"name": "Sharp_Pain_In_Left_Eye", "size":1},
+   {"name": "Sharp_Pain_Behind_Left_Ear", "size":1},
+   {"name": "Cramp_In_Legs", "size":1},
+   {"name": "Very_Angry", "size":1},
+   {"name": "Streaming_Left_Eye", "size":1},
+   {"name": "Painful_Ears", "size":1},
+   {"name": "Irritated", "size":1},
+   {"name": "Tinnitus", "size":1},
+   {"name": "Nasal_Congestion", "size":1},
+   {"name": "Dizziness", "size":1},
+   {"name": "Depressed_Mood", "size":1},
+   {"name": "Anxiety", "size":1},
+   {"name": "Sensitivity_To_Smell", "size":1},
+   {"name": "Insomnia", "size":1},
+   {"name": "Neck_Pain", "size":1},
+   {"name": "Sensitivity_To_Noise", "size":1}
+     ]
+    },
+    {
+     "name": "cluster10",
+     "children": [
+       {"name": "Nasal_Congestion", "size":2},
+ {"name": "Depressed_Mood", "size":2},
+ {"name": "Anxiety", "size":2},
+ {"name": "Sensitivity_To_Smell", "size":2},
+ {"name": "Insomnia", "size":2},
+ {"name": "Neck_Pain", "size":2},
+ {"name": "Sensitivity_To_Noise", "size":2},
+ {"name": "Sensitivity_To_Light", "size":2},
+ {"name": "Angry/On_Edge", "size":1},
+ {"name": "Extreme_Hunger", "size":1},
+ {"name": "Jaw_Is_Tight", "size":1},
+ {"name": "Forehead_Tightness", "size":1},
+ {"name": "Vomiting", "size":1},
+ {"name": "Giddiness", "size":1}
+     ]
+    }
+  ]
 }
